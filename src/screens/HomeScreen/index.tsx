@@ -6,7 +6,7 @@ const HomeScreen = () => {
   return (
     <SafeAreaView>
       <Text style={{fontSize: 20, fontWeight: 'bold', color: 'black'}}>
-        HomeScreen
+        HomeScreent
       </Text>
     </SafeAreaView>
   );
