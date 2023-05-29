@@ -6,6 +6,7 @@ import {
 } from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {HomeScreen} from '../screens';
+import NavBar from '../components/NavBar';
 
 const Stack = createNativeStackNavigator();
 
@@ -34,14 +35,14 @@ const AppStack = ({setHiddenStatusBar}: {setHiddenStatusBar: boolean}) => {
         screenOptions={{
           headerShown: false,
           contentStyle: {
-            backgroundColor: '#f5f5f5',
+            backgroundColor: '#f5f6fa',
           },
         }}>
         <Stack.Screen name="Home" component={HomeScreen} />
       </Stack.Navigator>
-      {/* <NavBar
-        currentRoute={routeNameRef === undefined ? "loading" : routeNameRef}
-      /> */}
+      <NavBar
+        currentRoute={routeNameRef === undefined ? 'loading' : routeNameRef}
+      />
     </NavigationContainer>
   );
 };
