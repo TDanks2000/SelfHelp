@@ -18,8 +18,11 @@ const NavBar = ({currentRoute}: any) => {
       <NavBarWrapper>
         {/* AFFIRMATIONS */}
         <NavBarIconItem onPress={onPress}>
-          <NavBarIcon name="lightbulb" isFocused={currentRoute === 'Home'} />
-          <NavBarText isFocused={currentRoute === 'Home'}>
+          <NavBarIcon
+            name="lightbulb"
+            isFocused={currentRoute === 'Affirmations'}
+          />
+          <NavBarText isFocused={currentRoute === 'Affirmations'}>
             Affirmations
           </NavBarText>
         </NavBarIconItem>

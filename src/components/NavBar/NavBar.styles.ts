@@ -42,13 +42,13 @@ interface IconProps {
 export const NavBarIcon = styled(Icon)<IconProps>`
   font-size: 25px;
   color: ${({isFocused, theme}) =>
-    isFocused ? theme.colors.ShakespeareBlue : 'black'};
+    isFocused ? theme.colors.AnzacYellow : 'black'};
 `;
 
 export const NavBarText = styled.Text<IconProps>`
   font-size: 12px;
   color: ${({isFocused, theme}) =>
-    isFocused ? theme.colors.ShakespeareBlue : 'black'};
+    isFocused ? theme.colors.AnzacYellow : 'black'};
   font-family: ${({theme}) => theme.fonts.openSans.bold};
   font-family: ${({isFocused, theme}) =>
     isFocused ? theme.fonts.openSans.extraBold : theme.fonts.openSans.regular};
