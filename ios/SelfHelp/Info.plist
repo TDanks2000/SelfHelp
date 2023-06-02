@@ -59,6 +59,11 @@
 		<string>OpenSans-Medium.ttf</string>
 		<string>OpenSans-Regular.ttf</string>
 		<string>OpenSans-SemiBold.ttf</string>
+		<string>Inconsolata-Bold.ttf</string>
+		<string>Inconsolata-Light.ttf</string>
+		<string>Inconsolata-Medium.ttf</string>
+		<string>Inconsolata-Regular.ttf</string>
+		<string>Inconsolata-SemiBold.ttf</string>
 	</array>
 </dict>
 </plist>

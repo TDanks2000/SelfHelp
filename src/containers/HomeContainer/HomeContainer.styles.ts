@@ -7,7 +7,6 @@ export const Container = styled.View`
 export const TopContainer = styled.View`
   position: relative;
   width: 100%;
-  height: 300px;
 `;
 
 export const Background = styled.View`

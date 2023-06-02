@@ -1,16 +1,12 @@
 import React from 'react';
-import {
-  MainText,
-  MoodContainer,
-  MoodSeperator,
-  MoodsContainer,
-  SubText,
-} from './Mood.styles';
+import {MoodContainer, MoodSeperator, MoodsContainer} from './Mood.styles';
 import Mood from './MoodComponent';
+import {MainText, SubText} from '../../styles/shared.styles';
 
 const moods = [
   {
     icon: 'smile',
+    SubText,
     moodColor: 'green',
     moodText: 'Happy',
   },

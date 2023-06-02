@@ -16,5 +16,12 @@ export const darkTheme: DefaultTheme = {
       bold: 'OpenSans-Bold',
       extraBold: 'OpenSans-ExtraBold',
     },
+    Inconsolata: {
+      light: 'Inconsolata-Light',
+      regular: 'Inconsolata-Regular',
+      medium: 'Inconsolata-Medium',
+      semiBold: 'Inconsolata-SemiBold',
+      bold: 'Inconsolata-Bold',
+    },
   },
 };

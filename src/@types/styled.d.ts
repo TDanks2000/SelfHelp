@@ -19,6 +19,13 @@ declare module 'styled-components' {
         bold: string;
         extraBold: string;
       };
+      Inconsolata: {
+        light: string;
+        regular: string;
+        medium: string;
+        semiBold: string;
+        bold: string;
+      };
     };
   }
 }

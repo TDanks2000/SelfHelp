@@ -8,17 +8,6 @@ export const MoodContainer = styled.View`
   background-color: white;
 `;
 
-export const MainText = styled(Text)`
-  font-family: ${({theme}) => theme.fonts.openSans.bold};
-  font-size: 18px;
-`;
-
-export const SubText = styled(Text)`
-  color: #999999;
-  font-size: 13px;
-  margin-top: 1px;
-`;
-
 export const MoodsContainer = styled.ScrollView.attrs({
   horizontal: true,
   showsHorizontalScrollIndicator: false,

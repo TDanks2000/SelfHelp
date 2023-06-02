@@ -1,4 +1,3 @@
-import {View, Text} from 'react-native';
 import React from 'react';
 import {
   Background,
@@ -7,18 +6,30 @@ import {
   HelloText,
   TopContainer,
 } from './HomeContainer.styles';
-import {MoodComponent} from '../../components';
+import {MoodComponent, Affirmations, RelaxingMusic} from '../../components';
+import {HorizontalSeprator} from '../../styles/shared.styles';
 
 const HomeContainer = () => {
   return (
     <Container>
       <TopContainer>
+        {/* BACKGROUND */}
+        <Background />
+
+        {/* HELLO COMPONENT */}
         <HelloContainer>
           <HelloText>Hello,</HelloText>
         </HelloContainer>
+
+        {/* MOODS */}
         <MoodComponent />
-        <Background />
       </TopContainer>
+      {/* AFFIRMATIONS */}
+      <Affirmations />
+
+      <HorizontalSeprator />
+
+      <RelaxingMusic />
     </Container>
   );
 };
